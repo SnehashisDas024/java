@@ -5,11 +5,13 @@ public class BinarySearchTree {
     int value;
     Node left;
     Node right;
+    int height;
 
     public Node(int value) {
       this.value = value;
       this.left = null;
       this.right = null;
+      this.height = 0;
     }
   }
 
@@ -41,6 +43,11 @@ public class BinarySearchTree {
       node.left = goToSpot(value, node.left);
     else
       node.right = goToSpot(value, node.right);
+    // node.height = Math.max(node.left.height, node.right.height) + 1;
+    int leftH = (node.left == null) ? -1 : node.left.height;
+    int rightH = (node.right == null) ? -1 : node.right.height;
+    node.height = Math.max(leftH, rightH) + 1;
+
     return node;
   }
 
@@ -60,9 +67,9 @@ public class BinarySearchTree {
                                             // hochhe
         System.out.print("|\t");
       }
-      System.out.println("|---->" + node.value);
+      System.out.println("|---->" + node.value + "(" + node.height + ")");
     } else {
-      System.out.println(node.value);
+      System.out.println(node.value + "(" + node.height + ")");
     }
     display(node.left, level + 1);
   }
