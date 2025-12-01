@@ -1,0 +1,1953 @@
+!SESSION 2025-12-01 13:22:25.045 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -data C:\Users\sneha\Desktop\My Apps\Coding\java/.jdtls
+
+!ENTRY com.microsoft.java.test.plugin 4 0 2025-12-01 13:22:25.795
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.microsoft.java.test.plugin [91]
+  Unresolved requirement: Require-Bundle: org.objectweb.asm; bundle-version="[9.8.0,9.9.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:26.281
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.jacoco.core 4 0 2025-12-01 13:22:26.374
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jacoco.core [90]
+  Unresolved requirement: Import-Package: org.objectweb.asm; version="[9.8.0,9.9.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:26.485
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:26.527
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:26.528
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:26.593
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:26.594
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:26.594
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:26.595
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:26.600
+!MESSAGE Wait for AutoBuildOffJob start
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:26.628
+!MESSAGE Wait for AutoBuildOffJob end 26ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:26.630
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:26.633
+!MESSAGE Started org.eclipse.m2e.core 3ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:26.635
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:26.635
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:26.660
+!MESSAGE Started org.eclipse.buildship.core 24ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:26.661
+!MESSAGE LoadingGradleVersionJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:26.693
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:26.702
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:26.786
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:27.410
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:27.441
+!MESSAGE Workspace initialized in 778ms
+!SESSION 2025-12-01 13:22:33.650 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -data C:\Users\sneha\Desktop\My Apps\Coding\java/.jdtls
+
+!ENTRY com.microsoft.java.test.plugin 4 0 2025-12-01 13:22:34.344
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.microsoft.java.test.plugin [91]
+  Unresolved requirement: Require-Bundle: org.objectweb.asm; bundle-version="[9.8.0,9.9.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:34.823
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.jacoco.core 4 0 2025-12-01 13:22:34.899
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jacoco.core [90]
+  Unresolved requirement: Import-Package: org.objectweb.asm; version="[9.8.0,9.9.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:35.018
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:35.061
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:35.063
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:35.093
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:35.094
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:35.094
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:35.095
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:35.100
+!MESSAGE Wait for AutoBuildOffJob start
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:35.110
+!MESSAGE Wait for AutoBuildOffJob end 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:35.111
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:35.112
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:35.113
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:35.113
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:35.132
+!MESSAGE Started org.eclipse.buildship.core 18ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:35.145
+!MESSAGE LoadingGradleVersionJob finished 13ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:35.172
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:35.176
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:35.270
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:35.844
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:35.857
+!MESSAGE Workspace initialized in 709ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:36.513
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:36.530
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:36.530
+!MESSAGE >> New configuration: {java={autobuild={enabled=true}, cleanup={actionsOnSave=[]}, codeAction={sortMembers={avoidVolatileChanges=true}}, codeGeneration={generateComments=true, hashCodeEquals={useInstanceof=false, useJava7Objects=true}, insertionLocation=afterCursor, toString={codeStyle=STRING_CONCATENATION, limitElements=0.0, listArrayContents=true, skipNullValues=false, template={=}}, useBlocks=false}, compile={nullAnalysis={mode=automatic, nonnull=[javax.annotation.Nonnull, org.eclipse.jdt.annotation.NonNull, org.springframework.lang.NonNull], nullable=[javax.annotation.Nullable, org.eclipse.jdt.annotation.Nullable, org.springframework.lang.Nullable]}}, completion={enabled=true, favoriteStaticMembers=[java.util.Objects.requireNonNull, java.util.Objects.requireNonNullElse, org.junit.Assert.*], filteredTypes=[java.awt.*, com.sun.*, sun.*, jdk.*, org.graalvm.*, io.micrometer.shaded.*], guessMethodArguments=false, importOrder=[#, java, javax, org, com], maxResults=0.0, postfix={enabled=true}}, configuration={maven={globalSettings=null, userSettings=null}, runtimes=[], updateBuildConfiguration=automatic, workspaceCacheLimit=99.0}, contentProvider={preferred=null}, eclipse={downloadSources=false}, errors={incompleteClasspath={severity=warning}}, foldingRange={enabled=false}, format={comments={enabled=true}, enabled=true, onType={enabled=false}, settings={profile=GoogleStyle, url=https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml}}, implementationsCodeLens={enabled=false}, import={exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**], generatesMetadataFilesAtProjectRoot=false, gradle={annotationProcessing={enabled=true}, arguments=null, enabled=true, home=null, java={home=null}, jvmArguments=null, offline={enabled=false}, user={home=null}, version=null, wrapper={enabled=true}}, maven={enabled=true, offline={enabled=false}}}, imports={gradle={wrapper={checksums=[]}}}, inlayHints={parameterNames={enabled=literals, exclusions=[]}}, jdt={ls={androidSupport={enabled=true}, java={home=null}, lombokSupport={enabled=true}, protobufSupport={enabled=true}}}, maven={downloadSources=false, updateSnapshots=false}, maxConcurrentBuilds=1.0, progressReports={enabled=false}, project={encoding=ignore, importHint=true, importOnFirstTimeStartup=automatic, outputPath=null, referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git], sourcePaths=null}, quickfix={showAt=line}, references={includeAccessors=true, includeDecompiledSources=true}, referencesCodeLens={enabled=false}, saveActions={organizeImports=true}, selectionRange={enabled=true}, server={launchMode=Hybrid}, settings={url=null}, showBuildStatusOnStart={enabled=notification}, signatureHelp={description={enabled=false}, enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, symbols={includeSourceMethodDeclarations=false}, templates={fileHeader=[], typeComment=[]}, trace={server=off}, typeHierarchy={lazyLoad=false}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:36.545
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:36.762
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:36.771
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:36.772
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:38.440
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:38.904
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:38.920
+!MESSAGE This method must return a result of type int is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:38.920
+!MESSAGE 2 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:38.936
+!MESSAGE Validated 1. Took 94 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:38.955
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:38.993
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:39.926
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:39.926
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:42.415
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:42.424
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:42.442
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:42.859
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:42.859
+!MESSAGE This method must return a result of type int is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:42.859
+!MESSAGE 2 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:42.859
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:42.872
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:43.288
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:43.299
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:43.315
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:43.703
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:43.766
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:43.766
+!MESSAGE 3 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:43.766
+!MESSAGE Validated 1. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:44.391
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:44.396
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:44.411
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:44.456
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:44.653
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:44.827
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:44.827
+!MESSAGE This method must return a result of type int is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:44.827
+!MESSAGE 3 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:44.827
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:44.841
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:45.431
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:45.436
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:45.499
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:45.917
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:45.917
+!MESSAGE 2 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:45.917
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:45.936
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:46.252
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:46.254
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:46.268
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:46.276
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:46.297
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:46.687
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:46.687
+!MESSAGE 1 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:46.687
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:46.701
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:48.338
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:48.338
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:48.707
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:48.716
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:48.729
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:49.215
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:49.215
+!MESSAGE 1 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:49.215
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:49.223
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:49.950
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:49.953
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:50.027
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:50.179
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:50.498
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:50.500
+!MESSAGE 3 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:50.501
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:50.577
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:50.580
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:50.642
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:51.060
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:51.060
+!MESSAGE 3 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:51.060
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:51.067
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:52.683
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:52.687
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:52.762
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:53.180
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:53.180
+!MESSAGE 1 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:53.180
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:53.189
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:53.384
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:53.386
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:53.424
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:53.450
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:53.643
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:53.882
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:53.882
+!MESSAGE 2 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:53.882
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:53.885
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:57.718
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:57.727
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:57.803
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:58.220
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:58.220
+!MESSAGE 3 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:58.220
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:58.348
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:58.350
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:58.361
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:58.828
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:58.829
+!MESSAGE 3 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:58.830
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:58.868
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:58.870
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:58.880
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:59.285
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:59.285
+!MESSAGE 3 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:59.285
+!MESSAGE Validated 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:22:59.302
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:00.257
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:00.261
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:00.335
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:00.802
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:00.803
+!MESSAGE 3 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:00.804
+!MESSAGE Validated 1. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:00.838
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:00.840
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:00.851
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:01.253
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:01.253
+!MESSAGE 3 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:01.253
+!MESSAGE Validated 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:01.277
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:02.333
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:02.337
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:02.413
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:02.808
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:02.823
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:02.866
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:03.301
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:03.304
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:03.316
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:03.733
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:03.735
+!MESSAGE 1 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:03.735
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:04.227
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:04.232
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:04.305
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:04.738
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:04.740
+!MESSAGE 1 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:04.741
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:04.748
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:08.216
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:08.216
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:12.351
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:12.367
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:12.370
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:12.716
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:12.721
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:12.773
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:13.238
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:13.239
+!MESSAGE This method must return a result of type int is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:13.240
+!MESSAGE 2 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:13.241
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:13.249
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:14.282
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:14.285
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:14.296
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:14.312
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:14.556
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:14.704
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:14.704
+!MESSAGE 3 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:14.714
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:14.735
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:14.737
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:15.522
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:15.528
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:15.554
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:15.971
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:15.972
+!MESSAGE This method must return a result of type int is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:15.973
+!MESSAGE 2 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:15.973
+!MESSAGE Validated 1. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:15.977
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:35.361
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:35.408
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:39.336
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 13:23:39.336
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:07:14.216
+!MESSAGE >> document/codeAction
+!SESSION 2025-12-01 17:09:29.266 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -data C:\Users\sneha\Desktop\My Apps\Coding\java/.jdtls
+
+!ENTRY com.microsoft.java.test.plugin 4 0 2025-12-01 17:09:30.220
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.microsoft.java.test.plugin [91]
+  Unresolved requirement: Require-Bundle: org.objectweb.asm; bundle-version="[9.8.0,9.9.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-12-01 17:09:30.345
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:30.867
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.jacoco.core 4 0 2025-12-01 17:09:30.957
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jacoco.core [90]
+  Unresolved requirement: Import-Package: org.objectweb.asm; version="[9.8.0,9.9.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:31.103
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:31.151
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:31.152
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:31.202
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:31.203
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:31.204
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:31.204
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:31.209
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:31.210
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:31.212
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:31.213
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:31.237
+!MESSAGE Started org.eclipse.buildship.core 24ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:31.251
+!MESSAGE LoadingGradleVersionJob finished 13ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:31.281
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:31.928
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:31.945
+!MESSAGE Workspace initialized in 692ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:33.091
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:33.113
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:33.132
+!MESSAGE >> New configuration: {java={autobuild={enabled=true}, cleanup={actionsOnSave=[]}, codeAction={sortMembers={avoidVolatileChanges=true}}, codeGeneration={generateComments=true, hashCodeEquals={useInstanceof=false, useJava7Objects=true}, insertionLocation=afterCursor, toString={codeStyle=STRING_CONCATENATION, limitElements=0.0, listArrayContents=true, skipNullValues=false, template={=}}, useBlocks=false}, compile={nullAnalysis={mode=automatic, nonnull=[javax.annotation.Nonnull, org.eclipse.jdt.annotation.NonNull, org.springframework.lang.NonNull], nullable=[javax.annotation.Nullable, org.eclipse.jdt.annotation.Nullable, org.springframework.lang.Nullable]}}, completion={enabled=true, favoriteStaticMembers=[java.util.Objects.requireNonNull, java.util.Objects.requireNonNullElse, org.junit.Assert.*], filteredTypes=[java.awt.*, com.sun.*, sun.*, jdk.*, org.graalvm.*, io.micrometer.shaded.*], guessMethodArguments=false, importOrder=[#, java, javax, org, com], maxResults=0.0, postfix={enabled=true}}, configuration={maven={globalSettings=null, userSettings=null}, runtimes=[], updateBuildConfiguration=automatic, workspaceCacheLimit=99.0}, contentProvider={preferred=null}, eclipse={downloadSources=false}, errors={incompleteClasspath={severity=warning}}, foldingRange={enabled=false}, format={comments={enabled=true}, enabled=true, onType={enabled=false}, settings={profile=GoogleStyle, url=https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml}}, implementationsCodeLens={enabled=false}, import={exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**], generatesMetadataFilesAtProjectRoot=false, gradle={annotationProcessing={enabled=true}, arguments=null, enabled=true, home=null, java={home=null}, jvmArguments=null, offline={enabled=false}, user={home=null}, version=null, wrapper={enabled=true}}, maven={enabled=true, offline={enabled=false}}}, imports={gradle={wrapper={checksums=[]}}}, inlayHints={parameterNames={enabled=literals, exclusions=[]}}, jdt={ls={androidSupport={enabled=true}, java={home=null}, lombokSupport={enabled=true}, protobufSupport={enabled=true}}}, maven={downloadSources=false, updateSnapshots=false}, maxConcurrentBuilds=1.0, progressReports={enabled=false}, project={encoding=ignore, importHint=true, importOnFirstTimeStartup=automatic, outputPath=null, referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git], sourcePaths=null}, quickfix={showAt=line}, references={includeAccessors=true, includeDecompiledSources=true}, referencesCodeLens={enabled=false}, saveActions={organizeImports=true}, selectionRange={enabled=true}, server={launchMode=Hybrid}, settings={url=null}, showBuildStatusOnStart={enabled=notification}, signatureHelp={description={enabled=false}, enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, symbols={includeSourceMethodDeclarations=false}, templates={fileHeader=[], typeComment=[]}, trace={server=off}, typeHierarchy={lazyLoad=false}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:33.138
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:35.004
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:35.080
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:35.094
+!MESSAGE This method must return a result of type int is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:35.095
+!MESSAGE 2 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:35.108
+!MESSAGE Validated 1. Took 92 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:35.127
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:35.136
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:09:35.137
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:10:32.716
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:10:32.716
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:40:14.382
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:42:52.868
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:42:52.954
+!MESSAGE Reconciled 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:42:53.456
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:42:53.456
+!MESSAGE This method must return a result of type int is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:42:53.456
+!MESSAGE 2 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:42:53.503
+!MESSAGE begin problem for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:42:53.503
+!MESSAGE 1 problems reported for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:42:53.503
+!MESSAGE Validated 2. Took 78 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:43:34.411
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:43:34.522
+!MESSAGE >> document/didSave
+!SESSION 2025-12-01 17:48:07.851 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -data C:\Users\sneha\Desktop\My Apps\Coding\java/.jdtls
+
+!ENTRY com.microsoft.java.test.plugin 4 0 2025-12-01 17:48:08.545
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.microsoft.java.test.plugin [91]
+  Unresolved requirement: Require-Bundle: org.objectweb.asm; bundle-version="[9.8.0,9.9.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-12-01 17:48:08.647
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:09.118
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.jacoco.core 4 0 2025-12-01 17:48:09.201
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jacoco.core [90]
+  Unresolved requirement: Import-Package: org.objectweb.asm; version="[9.8.0,9.9.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:09.295
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:09.339
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:09.340
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:09.368
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:09.369
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:09.370
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:09.370
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:09.378
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:09.379
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:09.381
+!MESSAGE ProjectRegistryRefreshJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:09.381
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:09.402
+!MESSAGE Started org.eclipse.buildship.core 20ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:09.414
+!MESSAGE LoadingGradleVersionJob finished 12ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:09.455
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:10.114
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:10.135
+!MESSAGE Workspace initialized in 717ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:11.201
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:11.216
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:11.232
+!MESSAGE >> New configuration: {java={autobuild={enabled=true}, cleanup={actionsOnSave=[]}, codeAction={sortMembers={avoidVolatileChanges=true}}, codeGeneration={generateComments=true, hashCodeEquals={useInstanceof=false, useJava7Objects=true}, insertionLocation=afterCursor, toString={codeStyle=STRING_CONCATENATION, limitElements=0.0, listArrayContents=true, skipNullValues=false, template={=}}, useBlocks=false}, compile={nullAnalysis={mode=automatic, nonnull=[javax.annotation.Nonnull, org.eclipse.jdt.annotation.NonNull, org.springframework.lang.NonNull], nullable=[javax.annotation.Nullable, org.eclipse.jdt.annotation.Nullable, org.springframework.lang.Nullable]}}, completion={enabled=true, favoriteStaticMembers=[java.util.Objects.requireNonNull, java.util.Objects.requireNonNullElse, org.junit.Assert.*], filteredTypes=[java.awt.*, com.sun.*, sun.*, jdk.*, org.graalvm.*, io.micrometer.shaded.*], guessMethodArguments=false, importOrder=[#, java, javax, org, com], maxResults=0.0, postfix={enabled=true}}, configuration={maven={globalSettings=null, userSettings=null}, runtimes=[], updateBuildConfiguration=automatic, workspaceCacheLimit=99.0}, contentProvider={preferred=null}, eclipse={downloadSources=false}, errors={incompleteClasspath={severity=warning}}, foldingRange={enabled=false}, format={comments={enabled=true}, enabled=true, onType={enabled=false}, settings={profile=GoogleStyle, url=https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml}}, implementationsCodeLens={enabled=false}, import={exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**], generatesMetadataFilesAtProjectRoot=false, gradle={annotationProcessing={enabled=true}, arguments=null, enabled=true, home=null, java={home=null}, jvmArguments=null, offline={enabled=false}, user={home=null}, version=null, wrapper={enabled=true}}, maven={enabled=true, offline={enabled=false}}}, imports={gradle={wrapper={checksums=[]}}}, inlayHints={parameterNames={enabled=literals, exclusions=[]}}, jdt={ls={androidSupport={enabled=true}, java={home=null}, lombokSupport={enabled=true}, protobufSupport={enabled=true}}}, maven={downloadSources=false, updateSnapshots=false}, maxConcurrentBuilds=1.0, progressReports={enabled=false}, project={encoding=ignore, importHint=true, importOnFirstTimeStartup=automatic, outputPath=null, referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git], sourcePaths=null}, quickfix={showAt=line}, references={includeAccessors=true, includeDecompiledSources=true}, referencesCodeLens={enabled=false}, saveActions={organizeImports=true}, selectionRange={enabled=true}, server={launchMode=Hybrid}, settings={url=null}, showBuildStatusOnStart={enabled=notification}, signatureHelp={description={enabled=false}, enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, symbols={includeSourceMethodDeclarations=false}, templates={fileHeader=[], typeComment=[]}, trace={server=off}, typeHierarchy={lazyLoad=false}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:11.232
+!MESSAGE >> document/didOpen
+!SESSION 2025-12-01 17:48:10.395 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -data C:\Users\sneha\Desktop\My Apps\Coding\java/.jdtls
+
+!ENTRY com.microsoft.java.test.plugin 4 0 2025-12-01 17:48:11.277
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.microsoft.java.test.plugin [91]
+  Unresolved requirement: Require-Bundle: org.objectweb.asm; bundle-version="[9.8.0,9.9.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-12-01 17:48:11.378
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:11.927
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.jacoco.core 4 0 2025-12-01 17:48:12.012
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jacoco.core [90]
+  Unresolved requirement: Import-Package: org.objectweb.asm; version="[9.8.0,9.9.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:12.142
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:12.196
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:12.198
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:12.234
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:12.235
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:12.236
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:12.236
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:12.251
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:12.252
+!MESSAGE Started org.eclipse.m2e.core 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:12.255
+!MESSAGE ProjectRegistryRefreshJob finished 2ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:12.256
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:12.276
+!MESSAGE Started org.eclipse.buildship.core 21ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:12.301
+!MESSAGE LoadingGradleVersionJob finished 24ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:12.338
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:12.618
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:12.631
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:12.693
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:12.701
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.core.jobs 4 2 2025-12-01 17:48:12.757
+!MESSAGE An internal error occurred during: "Publish Diagnostics".
+!STACK 0
+java.lang.NullPointerException: Cannot read field "projectsManager" because "org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.pluginInstance" is null
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.getProjectsManager(JavaLanguageServerPlugin.java:491)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.isDefaultProject(JDTUtils.java:1164)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.<init>(BaseDiagnosticsHandler.java:57)
+	at org.eclipse.jdt.ls.core.internal.handlers.DiagnosticsHandler.<init>(DiagnosticsHandler.java:32)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandler.createDiagnosticsHandler(DocumentLifeCycleHandler.java:44)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:257)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:249)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:117)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2025-12-01 17:48:12.778
+!MESSAGE An internal error occurred during: "Initialize workspace".
+!STACK 0
+java.lang.NullPointerException: Cannot read field "projectsManager" because "org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.pluginInstance" is null
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.getProjectsManager(JavaLanguageServerPlugin.java:491)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.getProblemMarkers(WorkspaceDiagnosticsHandler.java:239)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:227)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$2.run(JDTLanguageServer.java:305)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:13.096
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:13.115
+!MESSAGE Workspace initialized in 810ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:13.986
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:14.018
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:14.040
+!MESSAGE >> New configuration: {java={autobuild={enabled=true}, cleanup={actionsOnSave=[]}, codeAction={sortMembers={avoidVolatileChanges=true}}, codeGeneration={generateComments=true, hashCodeEquals={useInstanceof=false, useJava7Objects=true}, insertionLocation=afterCursor, toString={codeStyle=STRING_CONCATENATION, limitElements=0.0, listArrayContents=true, skipNullValues=false, template={=}}, useBlocks=false}, compile={nullAnalysis={mode=automatic, nonnull=[javax.annotation.Nonnull, org.eclipse.jdt.annotation.NonNull, org.springframework.lang.NonNull], nullable=[javax.annotation.Nullable, org.eclipse.jdt.annotation.Nullable, org.springframework.lang.Nullable]}}, completion={enabled=true, favoriteStaticMembers=[java.util.Objects.requireNonNull, java.util.Objects.requireNonNullElse, org.junit.Assert.*], filteredTypes=[java.awt.*, com.sun.*, sun.*, jdk.*, org.graalvm.*, io.micrometer.shaded.*], guessMethodArguments=false, importOrder=[#, java, javax, org, com], maxResults=0.0, postfix={enabled=true}}, configuration={maven={globalSettings=null, userSettings=null}, runtimes=[], updateBuildConfiguration=automatic, workspaceCacheLimit=99.0}, contentProvider={preferred=null}, eclipse={downloadSources=false}, errors={incompleteClasspath={severity=warning}}, foldingRange={enabled=false}, format={comments={enabled=true}, enabled=true, onType={enabled=false}, settings={profile=GoogleStyle, url=https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml}}, implementationsCodeLens={enabled=false}, import={exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**], generatesMetadataFilesAtProjectRoot=false, gradle={annotationProcessing={enabled=true}, arguments=null, enabled=true, home=null, java={home=null}, jvmArguments=null, offline={enabled=false}, user={home=null}, version=null, wrapper={enabled=true}}, maven={enabled=true, offline={enabled=false}}}, imports={gradle={wrapper={checksums=[]}}}, inlayHints={parameterNames={enabled=literals, exclusions=[]}}, jdt={ls={androidSupport={enabled=true}, java={home=null}, lombokSupport={enabled=true}, protobufSupport={enabled=true}}}, maven={downloadSources=false, updateSnapshots=false}, maxConcurrentBuilds=1.0, progressReports={enabled=false}, project={encoding=ignore, importHint=true, importOnFirstTimeStartup=automatic, outputPath=null, referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git], sourcePaths=null}, quickfix={showAt=line}, references={includeAccessors=true, includeDecompiledSources=true}, referencesCodeLens={enabled=false}, saveActions={organizeImports=true}, selectionRange={enabled=true}, server={launchMode=Hybrid}, settings={url=null}, showBuildStatusOnStart={enabled=notification}, signatureHelp={description={enabled=false}, enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, symbols={includeSourceMethodDeclarations=false}, templates={fileHeader=[], typeComment=[]}, trace={server=off}, typeHierarchy={lazyLoad=false}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:14.052
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:15.740
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:15.799
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:15.809
+!MESSAGE This method must return a result of type int is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:15.810
+!MESSAGE 2 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:15.821
+!MESSAGE Validated 1. Took 77 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:15.835
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:15.841
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:15.841
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:44.120
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:48:44.194
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:05.796
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:05.815
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:06.244
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:06.244
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:06.567
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:06.567
+!MESSAGE >> document/codeAction
+!SESSION 2025-12-01 17:52:41.225 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -data C:\Users\sneha\Desktop\My Apps\Coding\java/.jdtls
+
+!ENTRY com.microsoft.java.test.plugin 4 0 2025-12-01 17:52:41.945
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.microsoft.java.test.plugin [91]
+  Unresolved requirement: Require-Bundle: org.objectweb.asm; bundle-version="[9.8.0,9.9.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:42.467
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.jacoco.core 4 0 2025-12-01 17:52:42.546
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jacoco.core [90]
+  Unresolved requirement: Import-Package: org.objectweb.asm; version="[9.8.0,9.9.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:42.656
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:42.698
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:42.699
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:42.727
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:42.728
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:42.728
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:42.729
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:42.735
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:42.736
+!MESSAGE Started org.eclipse.m2e.core 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:42.737
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:42.738
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:42.754
+!MESSAGE Started org.eclipse.buildship.core 16ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:42.767
+!MESSAGE LoadingGradleVersionJob finished 13ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:42.800
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:43.456
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:43.483
+!MESSAGE Workspace initialized in 713ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:44.525
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:44.540
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:44.549
+!MESSAGE >> New configuration: {java={autobuild={enabled=true}, cleanup={actionsOnSave=[]}, codeAction={sortMembers={avoidVolatileChanges=true}}, codeGeneration={generateComments=true, hashCodeEquals={useInstanceof=false, useJava7Objects=true}, insertionLocation=afterCursor, toString={codeStyle=STRING_CONCATENATION, limitElements=0.0, listArrayContents=true, skipNullValues=false, template={=}}, useBlocks=false}, compile={nullAnalysis={mode=automatic, nonnull=[javax.annotation.Nonnull, org.eclipse.jdt.annotation.NonNull, org.springframework.lang.NonNull], nullable=[javax.annotation.Nullable, org.eclipse.jdt.annotation.Nullable, org.springframework.lang.Nullable]}}, completion={enabled=true, favoriteStaticMembers=[java.util.Objects.requireNonNull, java.util.Objects.requireNonNullElse, org.junit.Assert.*], filteredTypes=[java.awt.*, com.sun.*, sun.*, jdk.*, org.graalvm.*, io.micrometer.shaded.*], guessMethodArguments=false, importOrder=[#, java, javax, org, com], maxResults=0.0, postfix={enabled=true}}, configuration={maven={globalSettings=null, userSettings=null}, runtimes=[], updateBuildConfiguration=automatic, workspaceCacheLimit=99.0}, contentProvider={preferred=null}, eclipse={downloadSources=false}, errors={incompleteClasspath={severity=warning}}, foldingRange={enabled=false}, format={comments={enabled=true}, enabled=true, onType={enabled=false}, settings={profile=GoogleStyle, url=https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml}}, implementationsCodeLens={enabled=false}, import={exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**], generatesMetadataFilesAtProjectRoot=false, gradle={annotationProcessing={enabled=true}, arguments=null, enabled=true, home=null, java={home=null}, jvmArguments=null, offline={enabled=false}, user={home=null}, version=null, wrapper={enabled=true}}, maven={enabled=true, offline={enabled=false}}}, imports={gradle={wrapper={checksums=[]}}}, inlayHints={parameterNames={enabled=literals, exclusions=[]}}, jdt={ls={androidSupport={enabled=true}, java={home=null}, lombokSupport={enabled=true}, protobufSupport={enabled=true}}}, maven={downloadSources=false, updateSnapshots=false}, maxConcurrentBuilds=1.0, progressReports={enabled=false}, project={encoding=ignore, importHint=true, importOnFirstTimeStartup=automatic, outputPath=null, referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git], sourcePaths=null}, quickfix={showAt=line}, references={includeAccessors=true, includeDecompiledSources=true}, referencesCodeLens={enabled=false}, saveActions={organizeImports=true}, selectionRange={enabled=true}, server={launchMode=Hybrid}, settings={url=null}, showBuildStatusOnStart={enabled=notification}, signatureHelp={description={enabled=false}, enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, symbols={includeSourceMethodDeclarations=false}, templates={fileHeader=[], typeComment=[]}, trace={server=off}, typeHierarchy={lazyLoad=false}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:44.549
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:45.763
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:45.828
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:45.837
+!MESSAGE This method must return a result of type int is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:45.838
+!MESSAGE 2 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:45.850
+!MESSAGE Validated 1. Took 70 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:45.872
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:45.876
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:45.877
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:53.295
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:53.390
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:53.820
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:53.820
+!MESSAGE This method must return a result of type int is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:53.820
+!MESSAGE 2 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:53.861
+!MESSAGE begin problem for /BinarySearchTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:53.861
+!MESSAGE 1 problems reported for /BinarySearchTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:52:53.861
+!MESSAGE Validated 2. Took 63 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:18.938
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:18.938
+!MESSAGE Clearing problems for /BinarySearchTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:25.954
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:25.978
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:26.403
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:26.403
+!MESSAGE This method must return a result of type int is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:26.403
+!MESSAGE 2 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:26.444
+!MESSAGE begin problem for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:26.444
+!MESSAGE 1 problems reported for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:26.444
+!MESSAGE Validated 2. Took 59 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:29.205
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:29.205
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:32.524
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:32.542
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:32.614
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:33.036
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:33.036
+!MESSAGE This method must return a result of type int is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:33.036
+!MESSAGE 2 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:33.063
+!MESSAGE begin problem for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:33.063
+!MESSAGE 1 problems reported for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:33.063
+!MESSAGE Validated 2. Took 47 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:33.074
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:35.699
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:35.714
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:35.742
+!MESSAGE Reconciled 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:36.222
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:36.222
+!MESSAGE This method must return a result of type int is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:36.225
+!MESSAGE 2 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:36.301
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:36.301
+!MESSAGE begin problem for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:36.301
+!MESSAGE 2 problems reported for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:36.301
+!MESSAGE Validated 2. Took 94 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:36.571
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:36.586
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:36.640
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:37.058
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:37.058
+!MESSAGE This method must return a result of type int is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:37.058
+!MESSAGE 2 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:37.074
+!MESSAGE begin problem for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:37.074
+!MESSAGE 2 problems reported for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:37.074
+!MESSAGE Validated 2. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:37.201
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:37.216
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:37.267
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:37.370
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:37.374
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:37.378
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:37.379
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:37.440
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:37.459
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:37.677
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:37.869
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:37.870
+!MESSAGE This method must return a result of type int is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:37.871
+!MESSAGE 2 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:37.908
+!MESSAGE begin problem for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:37.910
+!MESSAGE 1 problems reported for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:37.911
+!MESSAGE Validated 2. Took 67 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:37.912
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:39.679
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:39.682
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:39.757
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:40.024
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:40.030
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:40.045
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:40.092
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:40.370
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:40.372
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:40.434
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:40.854
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:40.855
+!MESSAGE This method must return a result of type int is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:40.856
+!MESSAGE 2 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:40.876
+!MESSAGE begin problem for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:40.876
+!MESSAGE 1 problems reported for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:40.876
+!MESSAGE Validated 2. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:41.246
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:41.250
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:41.325
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:41.789
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:41.790
+!MESSAGE This method must return a result of type int is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:41.790
+!MESSAGE 2 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:41.807
+!MESSAGE begin problem for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:41.808
+!MESSAGE 1 problems reported for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:41.808
+!MESSAGE Validated 2. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:41.814
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:43.768
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:43.768
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:44.463
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:44.463
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:44.785
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:44.789
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:44.864
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:45.272
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:45.272
+!MESSAGE This method must return a result of type int is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:45.272
+!MESSAGE 2 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:45.283
+!MESSAGE begin problem for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:45.297
+!MESSAGE 1 problems reported for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:45.297
+!MESSAGE Validated 2. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:53:45.302
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:21.278
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:21.278
+!MESSAGE Clearing problems for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:25.817
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:25.909
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:26.312
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:26.312
+!MESSAGE This method must return a result of type int is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:26.312
+!MESSAGE 2 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:26.327
+!MESSAGE begin problem for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:26.327
+!MESSAGE 1 problems reported for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:26.327
+!MESSAGE Validated 2. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:32.198
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:32.198
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:33.221
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:33.221
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:34.287
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:34.297
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:34.372
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:34.779
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:34.779
+!MESSAGE This method must return a result of type int is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:34.779
+!MESSAGE 2 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:34.801
+!MESSAGE begin problem for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:34.801
+!MESSAGE 1 problems reported for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:34.801
+!MESSAGE Validated 2. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:34.809
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:37.581
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 17:54:37.629
+!MESSAGE >> document/didSave
+!SESSION 2025-12-01 18:49:52.120 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -data C:\Users\sneha\Desktop\My Apps\Coding\java/.jdtls
+
+!ENTRY com.microsoft.java.test.plugin 4 0 2025-12-01 18:49:52.827
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.microsoft.java.test.plugin [91]
+  Unresolved requirement: Require-Bundle: org.objectweb.asm; bundle-version="[9.8.0,9.9.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-12-01 18:49:52.938
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:49:53.363
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.jacoco.core 4 0 2025-12-01 18:49:53.441
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jacoco.core [90]
+  Unresolved requirement: Import-Package: org.objectweb.asm; version="[9.8.0,9.9.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+!SESSION 2025-12-01 18:58:38.140 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -data C:\Users\sneha\Desktop\My Apps\Coding\java/.jdtls
+
+!ENTRY com.microsoft.java.test.plugin 4 0 2025-12-01 18:58:38.998
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.microsoft.java.test.plugin [91]
+  Unresolved requirement: Require-Bundle: org.objectweb.asm; bundle-version="[9.8.0,9.9.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-12-01 18:58:39.122
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:39.606
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.jacoco.core 4 0 2025-12-01 18:58:39.695
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.jacoco.core [90]
+  Unresolved requirement: Import-Package: org.objectweb.asm; version="[9.8.0,9.9.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:39.802
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:39.860
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:39.862
+!MESSAGE Initializing Java Language Server 1.9.0.202203031534
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:39.902
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:39.903
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:39.904
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:39.905
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:39.913
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:39.914
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:39.916
+!MESSAGE ProjectRegistryRefreshJob finished 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:39.916
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:39.938
+!MESSAGE Started org.eclipse.buildship.core 21ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:39.950
+!MESSAGE LoadingGradleVersionJob finished 12ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:39.992
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:40.845
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:40.895
+!MESSAGE Workspace initialized in 941ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:42.055
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:42.072
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:42.083
+!MESSAGE >> New configuration: {java={autobuild={enabled=true}, cleanup={actionsOnSave=[]}, codeAction={sortMembers={avoidVolatileChanges=true}}, codeGeneration={generateComments=true, hashCodeEquals={useInstanceof=false, useJava7Objects=true}, insertionLocation=afterCursor, toString={codeStyle=STRING_CONCATENATION, limitElements=0.0, listArrayContents=true, skipNullValues=false, template={=}}, useBlocks=false}, compile={nullAnalysis={mode=automatic, nonnull=[javax.annotation.Nonnull, org.eclipse.jdt.annotation.NonNull, org.springframework.lang.NonNull], nullable=[javax.annotation.Nullable, org.eclipse.jdt.annotation.Nullable, org.springframework.lang.Nullable]}}, completion={enabled=true, favoriteStaticMembers=[java.util.Objects.requireNonNull, java.util.Objects.requireNonNullElse, org.junit.Assert.*], filteredTypes=[java.awt.*, com.sun.*, sun.*, jdk.*, org.graalvm.*, io.micrometer.shaded.*], guessMethodArguments=false, importOrder=[#, java, javax, org, com], maxResults=0.0, postfix={enabled=true}}, configuration={maven={globalSettings=null, userSettings=null}, runtimes=[], updateBuildConfiguration=automatic, workspaceCacheLimit=99.0}, contentProvider={preferred=null}, eclipse={downloadSources=false}, errors={incompleteClasspath={severity=warning}}, foldingRange={enabled=false}, format={comments={enabled=true}, enabled=true, onType={enabled=false}, settings={profile=GoogleStyle, url=https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml}}, implementationsCodeLens={enabled=false}, import={exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**], generatesMetadataFilesAtProjectRoot=false, gradle={annotationProcessing={enabled=true}, arguments=null, enabled=true, home=null, java={home=null}, jvmArguments=null, offline={enabled=false}, user={home=null}, version=null, wrapper={enabled=true}}, maven={enabled=true, offline={enabled=false}}}, imports={gradle={wrapper={checksums=[]}}}, inlayHints={parameterNames={enabled=literals, exclusions=[]}}, jdt={ls={androidSupport={enabled=true}, java={home=null}, lombokSupport={enabled=true}, protobufSupport={enabled=true}}}, maven={downloadSources=false, updateSnapshots=false}, maxConcurrentBuilds=1.0, progressReports={enabled=false}, project={encoding=ignore, importHint=true, importOnFirstTimeStartup=automatic, outputPath=null, referencedLibraries=[lib/**/*.jar], resourceFilters=[node_modules, .git], sourcePaths=null}, quickfix={showAt=line}, references={includeAccessors=true, includeDecompiledSources=true}, referencesCodeLens={enabled=false}, saveActions={organizeImports=true}, selectionRange={enabled=true}, server={launchMode=Hybrid}, settings={url=null}, showBuildStatusOnStart={enabled=notification}, signatureHelp={description={enabled=false}, enabled=true}, sources={organizeImports={starThreshold=99.0, staticStarThreshold=99.0}}, symbols={includeSourceMethodDeclarations=false}, templates={fileHeader=[], typeComment=[]}, trace={server=off}, typeHierarchy={lazyLoad=false}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:42.088
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:43.402
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:43.481
+!MESSAGE begin problem for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:43.482
+!MESSAGE 1 problems reported for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:43.497
+!MESSAGE Validated 1. Took 92 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:43.515
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:43.520
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:43.521
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:47.072
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:47.108
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:47.535
+!MESSAGE begin problem for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:47.543
+!MESSAGE This method must return a result of type int is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:47.544
+!MESSAGE 2 problems reported for /Q493.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:47.582
+!MESSAGE begin problem for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:47.583
+!MESSAGE 1 problems reported for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:47.583
+!MESSAGE Validated 2. Took 72 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:56.210
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:58:59.659
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:59:42.440
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2025-12-01 18:59:42.442
+!MESSAGE >> document/codeAction
