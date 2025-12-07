@@ -16,6 +16,21 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>src/AVL.java</name>
+			<type>1</type>
+			<location>C:/Users/sneha/Desktop/My Apps/Coding/java/tree/AVL.java</location>
+		</link>
+		<link>
+			<name>src/BFS.java</name>
+			<type>1</type>
+			<location>C:/Users/sneha/Desktop/My Apps/Coding/java/tree/BFS.java</location>
+		</link>
+		<link>
+			<name>src/BST2.java</name>
+			<type>1</type>
+			<location>C:/Users/sneha/Desktop/My Apps/Coding/java/tree/BST2.java</location>
+		</link>
+		<link>
 			<name>src/BinarySearchTree.java</name>
 			<type>1</type>
 			<location>C:/Users/sneha/Desktop/My Apps/Coding/java/tree/BinarySearchTree.java</location>
@@ -29,6 +44,21 @@
 			<name>src/CountInversions.java</name>
 			<type>1</type>
 			<location>C:/Users/sneha/Desktop/My Apps/Coding/java/Leetcode/CountInversions.java</location>
+		</link>
+		<link>
+			<name>src/InvertBinaryTree.java</name>
+			<type>1</type>
+			<location>C:/Users/sneha/Desktop/My Apps/Coding/java/tree/Leetcode Practice/InvertBinaryTree.java</location>
+		</link>
+		<link>
+			<name>src/SegmentTree.java</name>
+			<type>1</type>
+			<location>C:/Users/sneha/Desktop/My Apps/Coding/java/tree/SegmentTree.java</location>
+		</link>
+		<link>
+			<name>src/TreeTraversalBFS.java</name>
+			<type>1</type>
+			<location>C:/Users/sneha/Desktop/My Apps/Coding/java/tree/TreeTraversalBFS.java</location>
 		</link>
 		<link>
 			<name>src/Leetcode/Q493.java</name>
