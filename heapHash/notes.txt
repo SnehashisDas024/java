@@ -1,0 +1,12 @@
+
+To get the values and keys of a Hashmap, we use an iterator known as Map.Entry<?,?>.
+To obtain all the entries of the Hashmap, we use the mapname.entryset() function,which returns a set of the entries in the map. 
+Then we use a for each loop with the iterator to manage each entry and work with it. 
+
+Note - Entry => Key + Value 
+
+Example - 
+for (Map.Entry<Integer, Integer> entry : mapCount.entrySet()) {
+      System.out.println("Key = " + entry.getKey() + " Value = " + entry.getValue());
+}
+
